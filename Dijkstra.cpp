@@ -1,9 +1,6 @@
 #include "stdafx.h"
 using namespace std;
 
-extern int maps(char *map,int n,char a);
-extern int minimum(int *t,int n);
-
 void Dijkstra(int** graph, char* map,int n){
     string temp;
     int* P=(int*)malloc(sizeof(int)*n); //deposit nodes in (P)
