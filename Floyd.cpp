@@ -1,11 +1,9 @@
 #include "stdafx.h"
 using namespace std;
 
-extern int maps(char *map,int n,char a);
-
 void Floyd(int** graph, char* map,int n){
-    //init
     string temp;
+    //init
     int **d = (int**)malloc(sizeof(int*)*n);
     int **r = (int**)malloc(sizeof(int*)*n);
     for(int i=0;i<n;i++){
