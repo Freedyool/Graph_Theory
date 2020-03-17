@@ -3,8 +3,6 @@ Typical Graph Theory Models
 
 ---
 
-Now you can use `graph_bulid.cpp` to build your graph which will return an adjacent matrix
+use `main` to run this procedure
 
-If you want to make this procedure work properly, please open `example/Graph.cpp`.
-
-All `.cpp` files here are for you to see clearly how this procedure work. After all nobody would like to read 277 lines code in just one file.
+or use `build_graph_only` to build the adjacent matrix of your graph
